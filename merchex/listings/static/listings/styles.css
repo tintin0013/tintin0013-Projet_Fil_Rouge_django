@@ -1,0 +1,14 @@
+
+ul {display: flex;
+    flex-direction: row;
+   
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+li {
+    font-size: x-large;
+}
+nav ul {    background: rgb(175, 173, 173);
+}
