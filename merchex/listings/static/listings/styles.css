@@ -1,14 +1,38 @@
 
-ul {display: flex;
-    flex-direction: row;
+.titre {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
    
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: x-large;
+}
+
+
+ul {display: flex;
+    flex-direction: column;
     justify-content: space-around;
     padding-top: 30px;
     padding-bottom: 30px;
+    font-size: large;
 
 }
-li {
-    font-size: x-large;
-}
-nav ul {    background: rgb(175, 173, 173);
+
+
+
+footer {    background: rgb(231, 230, 230); 
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: large;
 }
