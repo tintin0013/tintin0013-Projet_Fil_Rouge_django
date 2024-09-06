@@ -8,7 +8,7 @@
         <header>
             <h1 class="titre">LA BOITE AUX TRÉSORS</h1>
             <nav>
-                <a href="{% url 'band-list' %}">Groupes</a>
+                <a href="{% url 'band_list' %}">Groupes</a>
                 <a href="{% url 'listing_list' %}">Listes</a>
             </nav>
         </header>
@@ -16,9 +16,9 @@
         {% block content %}{% endblock %}
         <footer>
            
-            <a href="{% url 'band-list' %}">Retour</a>
-            <a href="{% url 'about-us' %}">A propos</a>
-            <a href="{% url 'contact-us' %}">Contact</a>
+            <a href="{% url 'band_list' %}">Retour</a>
+            <a href="{% url 'about' %}">A propos</a>
+            <a href="{% url 'contact' %}">Contact</a>
                 <!-- <li><a href="http://127.0.0.1:8000/about-us/">A propos</a></li>
                 <li><a href="http://127.0.0.1:8000/contact-us/">Contact</a></li> -->         
         </footer>

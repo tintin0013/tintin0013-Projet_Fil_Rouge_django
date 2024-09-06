@@ -36,3 +36,5 @@ footer {    background: rgb(231, 230, 230);
     padding-bottom: 30px;
     font-size: large;
 }
+
+.errorlist { margin-bottom: -10px }
